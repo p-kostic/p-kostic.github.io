@@ -13,6 +13,11 @@ bundle install
 Now that everything is ready, you can run
 
 ```terminal
-bundle exec jekyll s
+bundle exec jekyll serve
 ```
 Then open a browser window and visit http://localhost:4000
+
+If you're running on WSL2, the LiveReload functionality requires the following arguments to work
+```terminal
+bundle exec jekyll serve --force_polling --livereload
+```
