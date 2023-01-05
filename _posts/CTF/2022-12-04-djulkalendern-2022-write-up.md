@@ -209,7 +209,7 @@ The lock is this very Discord Bot. By copying the Discord ID by right-clicking t
 
 > Question 3: What is tomtefar's first name?
 
-This one threw me off a short while. A quick google search reveals that “Tomtefar” refers to Father Christmas (Santa Claus) in modern time Swedish. However, "Santa" and other first names given to Santa Claus were not the right answer. However, I then noticed that a Dev called "Tomtefar" was also in this Discord channel. Going to his “About me” link revealed a website with a browser-based [ray tracer]([https://magnusson.space/](https://magnusson.space/)).
+This one threw me off a short while. A quick google search reveals that “Tomtefar” refers to Father Christmas (Santa Claus) in modern time Swedish. However, "Santa" and other first names given to Santa Claus were not the right answer. However, I then noticed that a Dev called "Tomtefar" was also in this Discord channel. Going to his “About me” link revealed a website with a browser-based [ray tracer](https://magnusson.space/).
 
 ![Discord2](/assets/img/posts/discord2.jpg){: w="301" h="646" }
 
@@ -727,11 +727,11 @@ ERROR: user login not permitted from the clearnet. Go away!
 
 We therefore have to complete this developer's work by deriving the tor hidden service hostname from an ed25519 public key. Conveniently, a .zip file is hosted in the image above containing the following files.
 
-| Filename                | Size     | Contents
-| ----------------------- | -------- | ---------------------------------------------------------------- |
-| `hs_ed25519_public_key` | 64 Bytes | `== ed25519v1-public: type0 ===¹ÈUÑXl²ü(hx§pƒd½i§^†ÄÓý%ìÃ÷ÃjW`  |
-| `hs_ed25519_secret_key` | 1  Byte  | Empty                                                            |
-| `hostname`              | 0  Bytes | Empty                                                            |
+| Filename                | Size     | Contents |
+| ----------------------- | -------- | ---------|
+| `hs_ed25519_public_key` | 64 Bytes | Binary   |
+| `hs_ed25519_secret_key` | 1  Byte  | Empty    |
+| `hostname`              | 0  Bytes | Empty    |
 
 > The contents of the public key contain strange characters as it must be opened in binary format for reading.
 {: .prompt-info }
