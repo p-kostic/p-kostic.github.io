@@ -1,21 +1,17 @@
-# Chirpy Starter [![Gem Version](https://img.shields.io/gem/v/jekyll-theme-chirpy)](https://rubygems.org/gems/jekyll-theme-chirpy) [![GitHub license](https://img.shields.io/github/license/cotes2020/chirpy-starter.svg?color=blue)][mit]
+# blog.kostic.dev
 
-When installing the [**Chirpy**][chirpy] theme through [RubyGems.org][gem], Jekyll can only read files in the folders `_includes`, `_layout`, `_sass` and `assets`, as well as a small part of options of the `_config.yml` file from the theme's gem. If you have ever installed this theme gem, you can use the command `bundle info --path jekyll-theme-chirpy` to locate these files.
+![GitHub Repo stars](https://img.shields.io/github/stars/p-kostic/p-kostic.github.io?style=social)
+![visitor badge](https://visitor-badge.glitch.me/badge?page_id=p-kostic.p-kostic.github.io)
+![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/p-kostic/p-kostic.github.io/pages-deploy.yml)
+![GitHub deployments](https://img.shields.io/github/deployments/p-kostic/p-kostic.github.io/github-pages)
+![GitHub issues](https://img.shields.io/github/issues/p-kostic/p-kostic.github.io)
+![GitHub](https://img.shields.io/github/license/p-kostic/p-kostic.github.io)
+![GitHub last commit](https://img.shields.io/github/last-commit/p-kostic/p-kostic.github.io)
+![GitHub commit activity](https://img.shields.io/github/commit-activity/m/p-kostic/p-kostic.github.io)
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/p-kostic/p-kostic.github.io)
+![GitHub repo file count](https://img.shields.io/github/directory-file-count/p-kostic/p-kostic.github.io)
 
-The Jekyll organization claims that this is to leave the ball in the user’s court, but this also results in users not being able to enjoy the out-of-the-box experience when using feature-rich themes.
-
-To fully use all the features of **Chirpy**, you need to copy the other critical files from the theme's gem to your Jekyll site. The following is a list of targets:
-
-```shell
-.
-├── _config.yml
-├── _data
-├── _plugins
-├── _tabs
-└── index.html
-```
-
-In order to save your time, and to prevent you from missing some files when copying, we extract those files/configurations of the latest version of the **Chirpy** theme and the [CD][CD] workflow to here, so that you can start writing in minutes.
+Repository for the blog where I share some stuff.
 
 ## Prerequisites
 
@@ -27,9 +23,18 @@ Follow the instructions in the [Jekyll Docs](https://jekyllrb.com/docs/installat
 
 Then clone it to your local machine and run:
 
+```zsh
+bundle
 ```
-$ bundle
+
+## Writing
+
+When writing, it might come in handy to see how it would look. For this, we run
+
+```zsh
+bundle exec jekyll serve -l -o
 ```
+
 
 ## Usage
 
