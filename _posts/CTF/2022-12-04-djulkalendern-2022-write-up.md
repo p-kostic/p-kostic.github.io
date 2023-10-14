@@ -697,7 +697,7 @@ Revealing the flag `jolly`.
 
 ## Day 21: Head(set) Hunt!
 
-This day's puzzle contains a link to the website [http://sentor.djul.datasektionen.se](http://sentor.djul.datasektionen.se/), containing a loginform and a hint towards the website's availability through a Tor hidden service.
+This day's puzzle contains a link to the website [https://sentor.djul.datasektionen.se](https://sentor.djul.datasektionen.se/), containing a loginform and a hint towards the website's availability through a Tor hidden service.
 
 ![Sentor](/assets/img/posts/sentor.png){: w="822" h="473" }
 
@@ -706,7 +706,7 @@ Snooping around in the Chrome Debugger, I noticed that assets were being served 
 
 ![Files](/assets/img/posts/files.png){: w="246" h="126" }
 
-Navigating to [http://sentor.djul.datasektionen.se/files/](http://sentor.djul.datasektionen.se/files/) shows the index of `/files`, revealing more files than loaded by the index page.
+Navigating to [https://sentor.djul.datasektionen.se/files/](https://sentor.djul.datasektionen.se/files/) shows the index of `/files`, revealing more files than loaded by the index page.
 
 ![Index](/assets/img/posts/index.png){: w="466" h="322" }
 
@@ -765,7 +765,7 @@ with open('hs_ed25519_public_key', mode='rb') as f:
 
 Running the above Python code gives us the Onion V3 address. Finally, we append `.onion`
 
-[hw44qvorlbwlf7binb4ko4edms6wtj26dkdmju75exwmh56dnjlzylqd.onion](http://hw44qvorlbwlf7binb4ko4edms6wtj26dkdmju75exwmh56dnjlzylqd.onion/)
+[hw44qvorlbwlf7binb4ko4edms6wtj26dkdmju75exwmh56dnjlzylqd.onion](https://hw44qvorlbwlf7binb4ko4edms6wtj26dkdmju75exwmh56dnjlzylqd.onion/)
 
 Navigating to this hidden server using the Tor browser, we enter the username `admin` and password `bomberman` to reveal the prompt.
 
