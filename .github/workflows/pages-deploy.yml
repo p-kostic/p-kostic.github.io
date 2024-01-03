@@ -45,6 +45,13 @@ jobs:
           ruby-version: 3.0
           bundler-cache: true
 
+      - name: Install dependencies
+        run: |
+          bundle config --local path /home/runner/work/p-kostic.github.io/p-kostic.github.io/vendor/bundle
+          bundle config --local deployment true
+          bundle install --jobs 4
+          bundle lock --add-platform x86_64-linux
+
       - name: Build site
         run: bundle exec jekyll b -d "_site${{ steps.pages.outputs.base_path }}"
         env:
