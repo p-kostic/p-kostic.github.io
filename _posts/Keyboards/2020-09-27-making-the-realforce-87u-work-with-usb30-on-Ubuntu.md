@@ -5,11 +5,15 @@ categories: [Keyboards]
 tags: [realforce87ub, ubuntu, issues]     # TAG names should always be lowercase
 ---
 
+> **Note:** Specifically for the Realforce 87U, this fix is now obsolete/irrelevant. The USB 3.0 Link Power Management is now disabled by default in the Linux kernel for the Realforce 87U. See [my more recent post](/posts/how-a-blog-post-about-my-keyboard-contributed-a-line-to-the-linux-kernel/) for more information. This post will be kept for reference, and to help people with similar issues for other keyboards.
+{: .prompt-info }
+
 ## Environment
 OS: Ubuntu 20.04 LTS x86_64  
 Host: XPS 15 9570  
 Kernel: 5.4.0-33-generic  
 DE: GNOME  
+
 
 ## Problem behavior
 The Realforce 87U does not work under Ubunu / Linux, but does work under Windows, Grub, or the BIOS on the machine.
