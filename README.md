@@ -1,30 +1,26 @@
 # blog.kostic.dev
 
-![GitHub Repo stars](https://img.shields.io/github/stars/p-kostic/p-kostic.github.io?style=social)
-![visitor badge](https://visitor-badge.glitch.me/badge?page_id=p-kostic.p-kostic.github.io)
-![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/p-kostic/p-kostic.github.io/pages-deploy.yml)
-![GitHub deployments](https://img.shields.io/github/deployments/p-kostic/p-kostic.github.io/github-pages)
-![GitHub issues](https://img.shields.io/github/issues/p-kostic/p-kostic.github.io)
-![GitHub](https://img.shields.io/github/license/p-kostic/p-kostic.github.io)
-![GitHub last commit](https://img.shields.io/github/last-commit/p-kostic/p-kostic.github.io)
-![GitHub commit activity](https://img.shields.io/github/commit-activity/m/p-kostic/p-kostic.github.io)
-![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/p-kostic/p-kostic.github.io)
-![GitHub repo file count](https://img.shields.io/github/directory-file-count/p-kostic/p-kostic.github.io)
-
 Repository for the blog where I share some stuff.
 
 ## Prerequisites
 
 Follow the instructions in the [Jekyll Docs](https://jekyllrb.com/docs/installation/) to complete the installation of `Ruby`, `RubyGems`, `Jekyll` and `Bundler`.
 
-## Installation
+### For Arch Linux specifically
 
-[**Use this template**][use-template] to generate a brand new repository and name it `<GH_USERNAME>.github.io`, where `GH_USERNAME` represents your GitHub username.
+```
+sudo pacman -S ruby ruby-stdlib base-devel zlib 
+gem install jekyll bundler
+```
 
-Then clone it to your local machine and run:
+edit `~/.bashrc` or equivalent to add `export PATH="$HOME/.local/share/gem/ruby/3.3.0/bin:$PATH"`
 
-```zsh
-bundle
+
+Then run
+```
+source ~/.bashrc
+bundle config set --local-path ~/.bundle
+bundle install 
 ```
 
 ## Writing
